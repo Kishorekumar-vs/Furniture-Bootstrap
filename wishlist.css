@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/contact_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+}
+
+
+.hello{
+border: 1px solid black;
+height: 440px;
+width: 720px !important;
+border: none;
+border-radius: 14px;
+margin-left: 370px;
+margin-top: 90px;
+background-color: rgba(143, 140, 138, 0.1) !important;
+}
+
+.hello:hover{
+    background-color: rgba(8, 8, 8) !important;
+    box-shadow: 0px 0px 10px rgb(214, 211, 211);
+    transition: all 0.8s;
+}
+.hii{
+    margin-left: 250px !important;
+}
+
+.btn{
+    color: grey !important;
+    font-size: 14px !important;
+    background-color: rgba(136, 134, 133, 0.2) !important;
+    width: 150px !important;
+    margin-left: 270px !important;
+}
+.btn:hover{
+    background-color: rgba(122, 120, 119, 0.3) !important;
+    color: rgb(247, 243, 243) !important;;
+}
+
+/* medi query */
+
+
+
+
+
+@media screen and (max-width:587px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hello{
+border: 1px solid black;
+height: 370px;
+width: 490px !important;
+border: none;
+border-radius: 14px;
+margin-left: 370px;
+margin-top: 90px;
+background-color: rgba(143, 140, 138, 0.1) !important;
+}
+
+.hii{
+    margin-left: 150px !important;
+    height: 160px;
+    width: 160px;
+}
+
+.btn{
+    color: grey !important;
+    font-size: 14px !important;
+    background-color: rgba(136, 134, 133, 0.2) !important;
+    width: 130px !important;
+    margin-left: 150px !important;
+}
+}

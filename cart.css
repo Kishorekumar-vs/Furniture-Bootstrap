@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./images/contact_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+}
+
+
+
+.hello{
+border: 1px solid black;
+height: 440px;
+width: 720px !important;
+border: none;
+border-radius: 14px;
+margin-left: 370px;
+margin-top: 90px;
+background-color: rgba(136, 133, 132, 0.1) !important;
+}
+
+.hello:hover{
+    background-color: rgb(10, 10, 10) !important;
+    box-shadow: 0px 0px 10px rgb(214, 211, 211);
+    transition: all 0.8s;
+}
+
+.hii{
+    margin-left: 200px !important;
+}
+
+.btn{
+    color: grey !important;
+    font-size: 14px !important;
+    background-color: rgba(104, 101, 100, 0.2) !important;
+    width: 150px !important;
+    margin-left: 270px !important;
+}
+.btn:hover{
+    background-color: rgba(77, 76, 75, 0.3) !important;
+    color: rgb(240, 233, 233) !important;;
+}
+
+/* medi query */ 
+@media screen and (max-width:587px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hello{
+border: 1px solid black;
+height: 370px;
+width: 490px !important;
+border: none;
+border-radius: 14px;
+margin-left: 370px;
+margin-top: 90px;
+background-color: rgba(143, 140, 138, 0.1) !important;
+}
+
+.hii{
+    margin-left: 130px !important;
+    height: 220px;
+    width: 220px;
+}
+
+.btn{
+    color: grey !important;
+    font-size: 14px !important;
+    background-color: rgba(136, 134, 133, 0.2) !important;
+    width: 130px !important;
+    margin-left: 170px !important;
+}
+
+}

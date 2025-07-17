@@ -1,0 +1,61 @@
+
+
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-image:url(./images/contact_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(231, 222, 222) !important;
+  }
+  /*------------ Login container ------------*/
+  
+  .new{
+    background: rgba(83, 83, 82, 0.3);
+      width: 930px;
+  }
+  
+  .new:hover{
+    background-color: rgba(221, 218, 218, 0.1) !important;
+    box-shadow: 0px 0px 10px rgb(214, 211, 211) !important;
+    transition: all 0.8s;
+  }
+  .left-box{
+    background:#dddcdb;
+  }
+  
+  /*------------ Right box ------------*/
+  
+  .right-box{
+      padding: 40px 30px 40px 40px;
+  }
+  
+  /*------------ Custom Placeholder ------------*/
+  
+  ::placeholder{
+      font-size: 16px;
+  }
+   .rounded-4{
+      border-radius: 20px;
+  }
+  .rounded-5{
+      border-radius: 30px;
+  }
+  
+  
+  /*-- Media query--*/
+  
+  @media only screen and (max-width: 687px){
+  
+       .new{
+          margin: 0 10px;
+  
+       }
+       .left-box{
+          height: 300px;
+          overflow: hidden;
+       }
+       .right-box{
+          padding: 20px;
+       }
+  
+  }

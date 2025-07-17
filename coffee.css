@@ -1,0 +1,85 @@
+body {
+    background: url(./images/contact_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+  }
+
+  .section{
+    background-color: rgba(82, 79, 79, 0.4);
+    border-radius: 16px;
+    padding: 32px;
+  }
+  
+.navbar-brand{
+margin-top: 20px !important;
+color:  rgb(187, 184, 179) !important;
+}
+.navbar-brand span{
+  margin-top:10px !important;
+  font-size: 13px;
+  color: rgb(180, 175, 175);
+}
+
+.fa-web-awesome{
+  font-size: 27px;
+  padding-right: 10px;
+  margin-top: 20px !important;
+}
+
+.navbar-brand:hover{
+color:white !important; 
+}
+.fa-web-awesome:hover{
+color:white !important; 
+}
+.navbar-brand span:hover{
+color:white !important; 
+}
+
+
+  
+  /* Card hover animation */
+  .card-hover {
+    transition: transform 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(240, 238, 238, 0.9);
+  }
+
+  /* Wishlist icon styling */
+  .wishlist-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size:24px;
+    color:rgb(8, 8, 8,0.9);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .wishlist-icon:hover {
+    color: #e63946;
+    transform:rotate(360deg);
+  }
+
+  /* Button hover animation */
+  .hii {
+  background: linear-gradient(to right,rgb(224, 147, 147),rgb(223, 139, 83));
+  border: none !important;
+    transition: transform 0.2s ease;
+  }
+
+  .hii:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(14, 13, 13, 0.9);
+    color: rgb(10, 10, 10) !important;
+    border: none !important;
+  }
+
+  /* Card image fix */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
